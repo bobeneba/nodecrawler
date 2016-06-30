@@ -1,0 +1,40 @@
+{
+  "appenders":
+  [
+    {
+      "type":"console",
+      "category":"console"
+    },
+    {
+      "category":"log_error",
+      "type": "file",
+      "filename": "./logs/log_error/error.log",
+      "maxLogSize": 1048000,
+      "backups": 66
+    },
+    {
+      "category":"log_crawler_info",
+      "type": "dateFile",
+      "filename": "./logs/log_info/date",
+      "alwaysIncludePattern": true,
+      "pattern": "-yyyy-MM-dd.log"
+
+    },
+    {
+      "category":"log_crawler_fuck",
+      "type": "dateFile",
+      "filename": "./logs/log_fuck/date",
+      "alwaysIncludePattern": true,
+      "pattern": "-yyyy-MM-dd.log"
+
+    }
+  ],
+  "replaceConsole": true,
+  "levels":
+  {
+    "log_error":"ALL",
+    "console":"ALL",
+    "log_crawler_info":"ALL",
+    "log_crawler_fuck":"ALL"
+  }
+}

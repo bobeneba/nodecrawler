@@ -1,0 +1,25 @@
+{
+  "name": "bobeneba",
+  "version": "1.0.0",
+  "description": "node crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crawler"
+  ],
+  "author": "bobeneba",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "eventproxy": "^0.3.4",
+    "lei-stream": "^1.0.5",
+    "line-by-line": "^0.1.5",
+    "log4js": "^0.6.37",
+    "mysql": "^2.11.1",
+    "node-horseman": "^3.1.1",
+    "phantom": "^2.1.7",
+    "superagent": "^2.0.0"
+  }
+}

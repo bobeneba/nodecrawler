@@ -1,0 +1,7 @@
+phantom stdout: NETWORK_ERR: XMLHttpRequest Exception 101: A network error occurred in synchronous requests.
+
+
+phantom stdout:   phantomjs://code/shim.js:1815 in send
+  phantomjs://code/shim.js:1815 in _start
+  phantomjs://code/shim.js:1842
+
